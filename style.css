@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal */
+  font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #2ecc71; /* Warna hijau */
+  margin: 0;
+  padding: 0;
+}
+
+/* Bungkus semua elemen dalam satu div agar bisa dipusatkan */
+#timer-container {
+  text-align: center; /* Membuat teks dan elemen lainnya sejajar di tengah */
+}
+
+h1{
+  color: white;
+  font-size: 2em;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Gaya umum untuk semua tombol */
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid white; /* Ubah border menjadi putih */
+  border-radius: 8px;
+  background-color: #ffffff; /* Tetap putih */
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efek Hover - Warna tombol sedikit lebih gelap */
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Efek saat tombol ditekan (klik) */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Gaya khusus untuk tombol yang dinonaktifkan */
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  border-color: #999;
+  cursor: not-allowed;
+}
+
+
+.github-corner {
+  position: fixed; /* Pastikan posisinya tetap */
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.github-corner svg {
+  width: 80px;
+  height: 80px;
+}
+
+.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+
+@media screen and (max-width: 800px) {
+  .github-corner{
+    display: none
+  }
+
+}
+
+/* Gaya untuk footer */
+footer {
+  position: fixed; /* Tetap di bagian bawah */
+  bottom: 10px; /* Jarak dari bawah */
+  width: 100%; /* Lebar penuh */
+  text-align: center; /* Pusatkan teks */
+  font-size: 1.0em; /* Ukuran teks */
+  color: white; /* Warna teks putih */
+}
+
+/* Gaya untuk link copyright */
+footer a {
+  color: white; /* Warna teks */
+  text-decoration: none; /* Hilangkan garis bawah */
+  transition: 0.3s; /* Efek transisi */
+}
