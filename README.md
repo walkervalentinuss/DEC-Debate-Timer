@@ -4,7 +4,10 @@
 This timer is **specifically designed** for the **English Debate Competition** organized by **Del English Club** 🏛️📚.  
 It helps **debaters** and **adjudicators** track speech time effectively with **automatic alerts** and **visual cues**.
 
-## Website accessible [here](decdebatetimer.infy.uk)!
+---
+
+## Website accessible at decdebatetimer.infy.uk
+copy and paste the link to your browser
 
 ---
 
